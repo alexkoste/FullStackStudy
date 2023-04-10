@@ -15,7 +15,7 @@ namespace HW1.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet(Name = "GetCars")]
         public IEnumerable<Car> Get()
         {
             List<Car> cars = new List<Car>();
