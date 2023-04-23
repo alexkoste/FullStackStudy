@@ -1,0 +1,11 @@
+﻿@page
+@model HomeWork4.Pages.MyPages.MyHobbiesModel
+@{
+}
+
+@foreach (var hobby in Model.Hobbies)
+{
+    <div>
+        <p>@hobby.Name @hobby.StartDate @hobby.Description</p>
+    </div>
+}
